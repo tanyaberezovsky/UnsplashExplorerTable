@@ -8,23 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		84ED21D62B73B68A007DF38B /* UnsplashExplorerTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED21D52B73B68A007DF38B /* UnsplashExplorerTableApp.swift */; };
-		84ED21D82B73B68A007DF38B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED21D72B73B68A007DF38B /* ContentView.swift */; };
+		84ED21D82B73B68A007DF38B /* UnsplashPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED21D72B73B68A007DF38B /* UnsplashPhotosView.swift */; };
 		84ED21DA2B73B68C007DF38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ED21D92B73B68C007DF38B /* Assets.xcassets */; };
 		84ED21DD2B73B68C007DF38B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ED21DC2B73B68C007DF38B /* Preview Assets.xcassets */; };
 		84ED21E72B73B68D007DF38B /* UnsplashExplorerTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED21E62B73B68D007DF38B /* UnsplashExplorerTableTests.swift */; };
-		84ED21F12B73B68D007DF38B /* UnsplashExplorerTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED21F02B73B68D007DF38B /* UnsplashExplorerTableUITests.swift */; };
-		84ED21F32B73B68D007DF38B /* UnsplashExplorerTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED21F22B73B68D007DF38B /* UnsplashExplorerTableUITestsLaunchTests.swift */; };
+		84ED22002B73C1E5007DF38B /* UnsplashPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED21FF2B73C1E5007DF38B /* UnsplashPhotosViewModel.swift */; };
+		84ED22052B73F1B0007DF38B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84ED22042B73F1B0007DF38B /* SDWebImageSwiftUI */; };
+		84ED22092B73FB51007DF38B /* UnsplashPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED22082B73FB51007DF38B /* UnsplashPhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		84ED21E32B73B68D007DF38B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84ED21CA2B73B68A007DF38B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84ED21D12B73B68A007DF38B;
-			remoteInfo = UnsplashExplorerTable;
-		};
-		84ED21ED2B73B68D007DF38B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84ED21CA2B73B68A007DF38B /* Project object */;
 			proxyType = 1;
@@ -36,14 +30,13 @@
 /* Begin PBXFileReference section */
 		84ED21D22B73B68A007DF38B /* UnsplashExplorerTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashExplorerTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ED21D52B73B68A007DF38B /* UnsplashExplorerTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashExplorerTableApp.swift; sourceTree = "<group>"; };
-		84ED21D72B73B68A007DF38B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84ED21D72B73B68A007DF38B /* UnsplashPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPhotosView.swift; sourceTree = "<group>"; };
 		84ED21D92B73B68C007DF38B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ED21DC2B73B68C007DF38B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84ED21E22B73B68D007DF38B /* UnsplashExplorerTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashExplorerTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ED21E62B73B68D007DF38B /* UnsplashExplorerTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashExplorerTableTests.swift; sourceTree = "<group>"; };
-		84ED21EC2B73B68D007DF38B /* UnsplashExplorerTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashExplorerTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84ED21F02B73B68D007DF38B /* UnsplashExplorerTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashExplorerTableUITests.swift; sourceTree = "<group>"; };
-		84ED21F22B73B68D007DF38B /* UnsplashExplorerTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashExplorerTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84ED21FF2B73C1E5007DF38B /* UnsplashPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPhotosViewModel.swift; sourceTree = "<group>"; };
+		84ED22082B73FB51007DF38B /* UnsplashPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ED22052B73F1B0007DF38B /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		84ED21DF2B73B68D007DF38B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84ED21E92B73B68D007DF38B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +63,6 @@
 			children = (
 				84ED21D42B73B68A007DF38B /* UnsplashExplorerTable */,
 				84ED21E52B73B68D007DF38B /* UnsplashExplorerTableTests */,
-				84ED21EF2B73B68D007DF38B /* UnsplashExplorerTableUITests */,
 				84ED21D32B73B68A007DF38B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +72,6 @@
 			children = (
 				84ED21D22B73B68A007DF38B /* UnsplashExplorerTable.app */,
 				84ED21E22B73B68D007DF38B /* UnsplashExplorerTableTests.xctest */,
-				84ED21EC2B73B68D007DF38B /* UnsplashExplorerTableUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				84ED21D52B73B68A007DF38B /* UnsplashExplorerTableApp.swift */,
-				84ED21D72B73B68A007DF38B /* ContentView.swift */,
+				84ED21D72B73B68A007DF38B /* UnsplashPhotosView.swift */,
+				84ED22082B73FB51007DF38B /* UnsplashPhotoView.swift */,
+				84ED21FF2B73C1E5007DF38B /* UnsplashPhotosViewModel.swift */,
 				84ED21D92B73B68C007DF38B /* Assets.xcassets */,
 				84ED21DB2B73B68C007DF38B /* Preview Content */,
 			);
@@ -118,15 +105,6 @@
 			path = UnsplashExplorerTableTests;
 			sourceTree = "<group>";
 		};
-		84ED21EF2B73B68D007DF38B /* UnsplashExplorerTableUITests */ = {
-			isa = PBXGroup;
-			children = (
-				84ED21F02B73B68D007DF38B /* UnsplashExplorerTableUITests.swift */,
-				84ED21F22B73B68D007DF38B /* UnsplashExplorerTableUITestsLaunchTests.swift */,
-			);
-			path = UnsplashExplorerTableUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +121,9 @@
 			dependencies = (
 			);
 			name = UnsplashExplorerTable;
+			packageProductDependencies = (
+				84ED22042B73F1B0007DF38B /* SDWebImageSwiftUI */,
+			);
 			productName = UnsplashExplorerTable;
 			productReference = 84ED21D22B73B68A007DF38B /* UnsplashExplorerTable.app */;
 			productType = "com.apple.product-type.application";
@@ -165,24 +146,6 @@
 			productReference = 84ED21E22B73B68D007DF38B /* UnsplashExplorerTableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84ED21EB2B73B68D007DF38B /* UnsplashExplorerTableUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84ED21FC2B73B68D007DF38B /* Build configuration list for PBXNativeTarget "UnsplashExplorerTableUITests" */;
-			buildPhases = (
-				84ED21E82B73B68D007DF38B /* Sources */,
-				84ED21E92B73B68D007DF38B /* Frameworks */,
-				84ED21EA2B73B68D007DF38B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84ED21EE2B73B68D007DF38B /* PBXTargetDependency */,
-			);
-			name = UnsplashExplorerTableUITests;
-			productName = UnsplashExplorerTableUITests;
-			productReference = 84ED21EC2B73B68D007DF38B /* UnsplashExplorerTableUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +163,6 @@
 						CreatedOnToolsVersion = 15.1;
 						TestTargetID = 84ED21D12B73B68A007DF38B;
 					};
-					84ED21EB2B73B68D007DF38B = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 84ED21D12B73B68A007DF38B;
-					};
 				};
 			};
 			buildConfigurationList = 84ED21CD2B73B68A007DF38B /* Build configuration list for PBXProject "UnsplashExplorerTable" */;
@@ -215,13 +174,15 @@
 				Base,
 			);
 			mainGroup = 84ED21C92B73B68A007DF38B;
+			packageReferences = (
+				84ED22032B73F1B0007DF38B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 84ED21D32B73B68A007DF38B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				84ED21D12B73B68A007DF38B /* UnsplashExplorerTable */,
 				84ED21E12B73B68D007DF38B /* UnsplashExplorerTableTests */,
-				84ED21EB2B73B68D007DF38B /* UnsplashExplorerTableUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +204,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84ED21EA2B73B68D007DF38B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,7 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ED21D82B73B68A007DF38B /* ContentView.swift in Sources */,
+				84ED21D82B73B68A007DF38B /* UnsplashPhotosView.swift in Sources */,
+				84ED22092B73FB51007DF38B /* UnsplashPhotoView.swift in Sources */,
+				84ED22002B73C1E5007DF38B /* UnsplashPhotosViewModel.swift in Sources */,
 				84ED21D62B73B68A007DF38B /* UnsplashExplorerTableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,15 +226,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84ED21E82B73B68D007DF38B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84ED21F32B73B68D007DF38B /* UnsplashExplorerTableUITestsLaunchTests.swift in Sources */,
-				84ED21F12B73B68D007DF38B /* UnsplashExplorerTableUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +233,6 @@
 			isa = PBXTargetDependency;
 			target = 84ED21D12B73B68A007DF38B /* UnsplashExplorerTable */;
 			targetProxy = 84ED21E32B73B68D007DF38B /* PBXContainerItemProxy */;
-		};
-		84ED21EE2B73B68D007DF38B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84ED21D12B73B68A007DF38B /* UnsplashExplorerTable */;
-			targetProxy = 84ED21ED2B73B68D007DF38B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,42 +454,6 @@
 			};
 			name = Release;
 		};
-		84ED21FD2B73B68D007DF38B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HS2EBXX3A9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanyaber.UnsplashExplorerTableUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UnsplashExplorerTable;
-			};
-			name = Debug;
-		};
-		84ED21FE2B73B68D007DF38B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HS2EBXX3A9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanyaber.UnsplashExplorerTableUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UnsplashExplorerTable;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,16 +484,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84ED21FC2B73B68D007DF38B /* Build configuration list for PBXNativeTarget "UnsplashExplorerTableUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84ED21FD2B73B68D007DF38B /* Debug */,
-				84ED21FE2B73B68D007DF38B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84ED22032B73F1B0007DF38B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84ED22042B73F1B0007DF38B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84ED22032B73F1B0007DF38B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84ED21CA2B73B68A007DF38B /* Project object */;
 }

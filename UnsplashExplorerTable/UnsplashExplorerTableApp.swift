@@ -11,7 +11,7 @@ import SwiftUI
 struct UnsplashExplorerTableApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UnsplashPhotosView(viewModel:  UnsplashPhotosViewModel(service: PhotosService()))
         }
     }
 }
